@@ -3,8 +3,8 @@
 ### DAFTAR TUGAS 
 | TUGAS | FILE |
 | ------| -----|
-| TUGAS 1 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/admin-jaringan-kel-5/blob/main/Administrasi%20Jaringan.md)_ |
-| TUGAS 2 |  _[KLICK HERE]()_ |
+| TUGAS 1 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/administrasi_jaringan_kelompok5/tree/main/Tugas_1)_ |
+| TUGAS 2 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/administrasi_jaringan_kelompok5/tree/main/Tugas_2)_ |
 
 ### ANGGOTA KELOMPOK
 | NAMA                          | NRP       |
