@@ -88,13 +88,13 @@ Langkah-langkah instalasi DNS server dengan menggunakan aplikasi BIND9 pada Debi
    Yang membedakan dengan db.kelompok5.local adalah IN, PTR, NS.
 10. Mengecek dengan utilitas setelah konfigurasi:
     ```
-    named-checkzone kelompok11.local db.kelompok11.local 
+    named-checkzone kelompok5.local db.kelompok11.local 
     ```
     ![alt text](img/langkah10.png)
 
 11. Mengecek dengan utilitas setelah konfigurasi:
     ```
-    named-checkzone 136.168.192.inaddr-arpa db.kelompok11.local.inv  
+    named-checkzone 5.168.192.inaddr-arpa db.kelompok11.local.inv  
     ```
     ![alt text](img/langkah11.png)
 
@@ -118,13 +118,13 @@ Langkah-langkah instalasi DNS server dengan menggunakan aplikasi BIND9 pada Debi
 
 15. Menjalankan perintah untuk melakukan pengetesan:
     ```
-    dig kelompok11.local 
+    dig kelompok5.local 
     ```
     ![alt text](img/langkah15.png)
 
 16. Menjalankan perintah untuk melakukan pengetesan:
     ```
-    dig -x 192.168.136.10
+    dig -x 192.168.5.1
     ```
     ![alt text](img/langkah16.png)
 
