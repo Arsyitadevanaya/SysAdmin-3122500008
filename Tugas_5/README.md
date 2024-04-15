@@ -280,7 +280,7 @@ POLITEKNIK ELEKTRONIKA NEGERI SURABAYA <br>
    ```
    ![alt text](img/pic.png)
 9.  Lakukan restart apache2
-    ```
+   ```
     sudo systemctl restart apache2
    ```
 
@@ -289,7 +289,7 @@ POLITEKNIK ELEKTRONIKA NEGERI SURABAYA <br>
    ```
     flatpak install flathub org.mozilla.Thunderbird
    ```
-2. install thunderbird GUI on https://flathub.org/apps/org.mozilla.Thunderbird
+2. Install thunderbird GUI on https://flathub.org/apps/org.mozilla.Thunderbird
    ![alt text](img/pic.png)
 3. Menambahkan 2 email
    ![alt text](img/pic.png)
