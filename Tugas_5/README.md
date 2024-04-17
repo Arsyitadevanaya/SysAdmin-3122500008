@@ -5,8 +5,6 @@
   <img src="img/Logo_PENS.png" alt="Logo PENS">
 </p>
 
-<h4 align="Center">Anggota Kelompok 5</h4>
-
 <p align="center">
 Arsyita Devanaya Arianto (3122500008) <br>
 </p>
@@ -232,7 +230,7 @@ POLITEKNIK ELEKTRONIKA NEGERI SURABAYA <br>
    ```
     sudo apt -y install dovecot-core dovecot-pop3d dovecot-imapd
    ```
-2. Edit file defecot.conf
+2. Edit file dovecot.conf
    ```
     sudo nano /etc/dovecot/dovecot.conf
    ```
@@ -268,6 +266,20 @@ POLITEKNIK ELEKTRONIKA NEGERI SURABAYA <br>
    ```
     telnet mail.kelompok6.local 25
    ```
+   ![alt text](img/pic75.png)
+
+## Install Thunderbird (Email GUI Client)
+1. Lakukan penginstalan
+   ```
+    flatpak install flathub org.mozilla.Thunderbird
+   ```
+   ![alt text](img/pic76.png)
+2. Install thunderbird GUI on https://flathub.org/apps/org.mozilla.Thunderbird
+3. Menambahkan 2 email
+   ![alt text](img/pic77.png)
+4. Coba saling sand email
+   ![alt text](img/pic78.png)
+   ![alt text](img/pic79.png)
 
 ## Install webmail (RoundCube)
 1. Configure SSL/TLS settings on Apache2 Server, refer to here. 
@@ -316,24 +328,18 @@ POLITEKNIK ELEKTRONIKA NEGERI SURABAYA <br>
    ```
     sudo nano /etc/apache2/conf-enabled/roundcube.conf
    ```
-   ![alt text](img/pic.png)
+   ![alt text](img/pic80.png)
 9.  Lakukan restart apache2
    ```
     sudo systemctl restart apache2
    ```
+10. Buka roundcube di web browser
+    ![alt text](img/pic81.png)
+11. Melakukan send email
+    ![alt text](img/pic82.png)
+    ![alt text](img/pic83.png)
 
-## Install Thunderbird (Email GUI Client)
-1. Lakukan penginstalan
-   ```
-    flatpak install flathub org.mozilla.Thunderbird
-   ```
-2. Install thunderbird GUI on https://flathub.org/apps/org.mozilla.Thunderbird
-   ![alt text](img/pic.png)
-3. Menambahkan 2 email
-   ![alt text](img/pic.png)
-4. Coba saling sand email
-   ![alt text](img/pic.png)
-   ![alt text](img/pic.png)
+
    
    
    
