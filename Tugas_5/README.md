@@ -340,6 +340,32 @@ POLITEKNIK ELEKTRONIKA NEGERI SURABAYA <br>
     ![alt text](img/pic83.png)
 
 
-   
+
+
+## Melanjutkan setup web email server
+1. Mengubah network NAT menjadi Bridged Adaptor dengan name Realtek USB FE family Controllor
+   ![alt text](img/pic84.png)
+2. Mengubah IP menjadi 192.168.5.10
+   ![alt text](img/pic85.png)
+   ![alt text](img/pic86.png)
+3. Mengubah file named.conf.options
+   ![alt text](img/pic87.png)
+   ![alt text](img/pic88.png)
+4. Mengubah file /etc/resolv.conf
+   ![alt text](img/pic89.png)
+5. Melakukan pengecekkan nslokkup
+   ![alt text](img/pic90.png)
+6. Melakukan seting WinBox
+   ![alt text](img/pic91.png)
+7. Melakukan Testing atau uji coba
+   Melakukan pengepingan pada detik.com
+   ![alt text](img/pic92.png)
+   Melakukan pengepingan pada kelompok6
+   ![alt text](img/pic93.png)
+8. Melakukan pengiriman pesan antar kelompok dengan RoundCube
+   Melakukan pengiriman pesan dari arsyita@mail.kelompok5.local ke iqbal@mail.kelompok6.local
+   ![alt text](img/pic94.png)
+   melakukan penerimaan pesan dari adam@mail.kelompok8.local ke arsyita@mail.kelompok5.local
+   ![alt text](img/pic95.png)
    
    
