@@ -1,13 +1,17 @@
- <h1 align="Center">LAPORAN WORKSHOP ADMINISTRASI JARINGAN</h1>
- 
+
+  <h1 align="Center">LAPORAN WORKSHOP ADMINISTRASI JARINGAN</h1>
 
 
 <p align="center">
   <img src="img/Logo_PENS.png" alt="Logo PENS">
 </p>
 
+<h4 align="Center">Anggota Kelompok 5</h4>
+
 <p align="center">
-Arsyita Devanaya Arianto (3122500008) <br>
+1. Arsyita Devanaya Arianto (3122500008) <br>
+2. Mirta Chadhirotin Nachlah (3122500009) <br>
+3. Shofira Izza Nurrohmah (3122500026)
 </p>
 
 <br>
