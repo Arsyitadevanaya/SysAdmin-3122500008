@@ -1,4 +1,5 @@
  <h1 align="Center">LAPORAN WORKSHOP ADMINISTRASI JARINGAN</h1>
+ 
 
 
 <p align="center">
@@ -17,6 +18,8 @@ DEPARTEMEN TEKNIK INFORMATIKA DAN KOMPUTER
 POLITEKNIK ELEKTRONIKA NEGERI SURABAYA <br> 
 2023
 </h4> <br><br><hr>
+
+
 
 # WEB EMAIL SYSTEM
 
@@ -66,7 +69,7 @@ POLITEKNIK ELEKTRONIKA NEGERI SURABAYA <br>
    ```
    systemctl reload apache2
    ```
-3. Test ke web browser
+3. Test ke web browser 
    ![alt text](img/pic16.png)
 
 ## Install PHP 8.2
@@ -339,9 +342,6 @@ POLITEKNIK ELEKTRONIKA NEGERI SURABAYA <br>
     ![alt text](img/pic82.png)
     ![alt text](img/pic83.png)
 
-
-
-
 ## Melanjutkan setup web email server
 1. Mengubah network NAT menjadi Bridged Adaptor dengan name Realtek USB FE family Controllor
    ![alt text](img/pic84.png)
@@ -354,7 +354,6 @@ POLITEKNIK ELEKTRONIKA NEGERI SURABAYA <br>
 4. Mengubah file /etc/resolv.conf
    ![alt text](img/pic89.png)
 5. Melakukan pengecekkan nslokkup
-   ![alt text](img/pic90.png)
 6. Melakukan seting WinBox
    ![alt text](img/pic91.png)
 7. Melakukan Testing atau uji coba
@@ -364,8 +363,8 @@ POLITEKNIK ELEKTRONIKA NEGERI SURABAYA <br>
    ![alt text](img/pic93.png)
 8. Melakukan pengiriman pesan antar kelompok dengan RoundCube
    Melakukan pengiriman pesan dari arsyita@mail.kelompok5.local ke iqbal@mail.kelompok6.local
-   ![alt text](img/pic94.png)
+   ![alt text](img/pic94.jpg)
    melakukan penerimaan pesan dari adam@mail.kelompok8.local ke arsyita@mail.kelompok5.local
    ![alt text](img/pic95.png)
-   
-   
+
+## Berhasil melakukan pengiriman pesan antar kelompok
