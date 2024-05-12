@@ -64,3 +64,78 @@ data yang dilakukan bersifat privat dan tidak bisa diakses sembarangan oleh publ
 3. Client yang meminta akses informasi, dalam hal ini adalah pengguna, maka server akan mengirimkan dokumen HTML tersebut. Hasilnya informasi tampil di browser dan kamu dapat membacanya dengan tampilan UI yang menarik dan mudah dimengerti. 
 4. Ketika client (pengguna) sudah mendapatkan informasinya, maka client akan memeriksa kode program atau sintaks. Proses ini menghasilkan database yang diperlukan. Proses ini menggunakan bahasa pemrograman SQL atau sejenisnya. 
 5. Proses tersebut diteruskan ke server, sambil menunggu server mendapat respons dari pengguna akhir. Ketika pengguna merespons, permintaan database dibuat untuk client dan hasilnya tayang di layar kamu. 
+
+#### Menginstal Docker
+1. Uninstall conflicted
+   ```
+      for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
+   ```
+   Perintah tersebut adalah sebuah loop Bash yang menghapus beberapa paket dari sistem menggunakan manajer paket apt-get. Paket-paket yang dihapus termasuk docker.io, docker-doc, docker-compose, podman-docker, containerd, dan runc. 
+
+2. Install docker engine
+   
+   `` Menambahkan Kunci GPG resmi Docker ``
+   ```
+      sudo apt-get update sudo apt-get install ca-certificates curl sudo install -m 0755 -d /etc/apt/keyrings sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc sudo chmod a+r /etc/apt/keyrings/docker.asc
+   ```
+   ![alt text](img/pic1.png)
+   ![alt text](img/pic2.png)
+   ket: 
+   Langkah-langkah untuk menambahkan kunci GPG resmi Docker meliputi memperbarui daftar paket Apt, menginstal paket ca-certificates dan curl untuk keamanan, membuat direktori baru di /etc/apt/keyrings untuk menyimpan kunci GPG, mengunduh kunci GPG resmi Docker, dan memberikan izin baca untuk kunci tersebut. Langkah-langkah ini memastikan sistem memiliki akses yang diperlukan untuk mengotentikasi paket-paket Docker yang diunduh dari repositori Docker.
+
+   `` Menambahkan Repository Docker ke Sumber APT ``
+   ```
+      echo \  
+      "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
+      $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+      sudo tee /etc/apt/sources.list.d/docker.list > /dev/null sudo apt-get update
+   ```
+   ![alt text](img/pic3.png)
+   ket:
+   Perintah echo "..." digunakan untuk menciptakan teks yang mendefinisikan repositori Docker, dengan %VERSION_CODENAME% menghasilkan kode nama versi distribusi Debian yang sedang digunakan. Kemudian, perintah sudo tee /etc/apt/sources.list.d/docker.list > /dev/null menyalin teks tersebut ke dalam file /etc/apt/sources.list.d/docker.list tanpa menampilkan keluaran di layar. Setelah repositori Docker ditambahkan, sudo apt-get update digunakan untuk memperbarui daftar paket Apt sehingga sistem dapat mengakses dan menginstal paket-paket dari repositori Docker yang baru ditambahkan.
+   
+3. Start Docker Engine
+   ```
+      sudo service docker start
+   ```
+   ![alt text](img/pic4.png)
+   ket: 
+   Perintah tersebut digunakan untuk memulai layanan Docker di sistem
+
+4. Menjalankan Container
+   ```
+      sudo docker run hello-world
+   ```
+   ![alt text](img/pic5.png)
+
+#### Simple Project Docker
+
+1. Membuka github https://github.com/alfiyansys/docker-examples
+2. Melakukan cloning docker-example 
+   ![alt text](img/pic6.png)
+3. Menjalankan perintah
+   ```
+      docker build -t example .
+      docker run -p 3000:80 example
+   ```
+   ![alt text](img/pic7.png)
+   ![alt text](img/pic8.png)
+4. Membuka localhost:3000 di browser
+   ```
+      http://localhost:3000/
+   ```
+   ![alt text](img/pic9.png)
+
+#### Docker uptime kuma
+1. Menjalankan perintah sebagai berikut untuk menginstal uptime kuma
+   ```
+      docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name uptime-kuma louislam/uptime-kuma:1
+   ```
+   ![alt text](img/pic10.png)
+2. Membuka link berikut di browser
+   ```
+      http://0.0.0.0:3001/
+   ```
+   ![alt text](img/pic11.png)
+   ![alt text](img/pic12.png)
+
