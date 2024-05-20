@@ -138,4 +138,13 @@ data yang dilakukan bersifat privat dan tidak bisa diakses sembarangan oleh publ
    ```
    ![alt text](img/pic11.png)
    ![alt text](img/pic12.png)
+3. Run using virtualhost with access domain, example: http://monitoring.kelompokX.local, pertama melakukan konfigurasi file db.kelompok5.local menggunakan perintah ``sudo nano /var/lib/bind/db.kelompok5.local``
+   ![alt text](img/pic13.png)
+4. Install a2enmod menggunakan perintah ``sudo a2enmod`` dan memasukkan package proxy ``proxy proxy_ajp proxy_http rewrite deflate headers proxy_balancer proxy_connect proxy_html``
+   ![alt text](img/pic14.png)
+   ![alt text](img/pic15.png)
+5. Konfigurasi Apache2 menggunakan perintah ``sudo nano /etc/apache2/sites-enabled/000-default.conf`` lalu lakukan restart apache2 menggunakan perintah ``sudo systemctl restart apache2``
+   ![alt text](img/pic16.png)
+6. Cek kembali ``monitoring.kelompok5.local/``
+   ![alt text](img/pic17.png)
 
