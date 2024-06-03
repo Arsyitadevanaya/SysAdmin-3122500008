@@ -10,6 +10,7 @@
 | TUGAS 5 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/administrasi_jaringan_kelompok5/tree/main/Tugas_5)_ |
 | TUGAS 6 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/administrasi_jaringan_kelompok5/tree/main/Tugas_6)_ |
 | TUGAS 7 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/administrasi_jaringan_kelompok5/tree/main/Tugas_7)_ |
+| TUGAS 7 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/administrasi_jaringan_kelompok5/tree/main/Tugas_7)_ |
 
 
 
