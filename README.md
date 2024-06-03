@@ -3,13 +3,14 @@
 ### DAFTAR TUGAS 
 | TUGAS | FILE |
 | ------| -----|
-| TUGAS 1 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/administrasi_jaringan_kelompok5/tree/main/Tugas_1)_ |
-| TUGAS 2 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/administrasi_jaringan_kelompok5/tree/main/Tugas_2)_ |
-| TUGAS 3 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/administrasi_jaringan_kelompok5/tree/main/Tugas_3)_ |
-| TUGAS 4 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/administrasi_jaringan_kelompok5/tree/main/Tugas_4)_ |
-| TUGAS 5 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/administrasi_jaringan_kelompok5/tree/main/Tugas_5)_ |
-| TUGAS 6 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/administrasi_jaringan_kelompok5/tree/main/Tugas_6)_ |
-| TUGAS 7 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/administrasi_jaringan_kelompok5/
+| TUGAS 1 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/SysAdmin-3122500008/tree/main/Tugas_1)_ |
+| TUGAS 2 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/SysAdmin-3122500008/tree/main/Tugas_2)_ |
+| TUGAS 3 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/SysAdmin-3122500008/tree/main/Tugas_3)_ |
+| TUGAS 4 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/SysAdmin-3122500008/tree/main/Tugas_4)_ |
+| TUGAS 5 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/SysAdmin-3122500008/tree/main/Tugas_5)_ |
+| TUGAS 6 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/SysAdmin-3122500008/tree/main/Tugas_6)_ |
+| TUGAS 7 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/SysAdmin-3122500008/tree/main/Tugas_7)_ |
+| TUGAS 8 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/SysAdmin-3122500008/tree/main/Tugas_7)_ |
 
 
 
