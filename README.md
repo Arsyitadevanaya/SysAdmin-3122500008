@@ -10,7 +10,7 @@
 | TUGAS 5 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/SysAdmin-3122500008/tree/main/Tugas_5)_ |
 | TUGAS 6 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/SysAdmin-3122500008/tree/main/Tugas_6)_ |
 | TUGAS 7 |  _[KLICK HERE](https://github.com/Arsyitadevanaya/SysAdmin-3122500008/tree/main/Tugas_7)_ |
-| Project Kelompok |  _[KLICK HERE](https://github.com/Arsyitadevanaya/SysAdmin-3122500008/tree/main/Project-Kelompok)_ |
+| Project Charter |  _[KLICK HERE](https://github.com/Arsyitadevanaya/SysAdmin-3122500008/tree/main/Project-Charter)_ |
 
 
 
